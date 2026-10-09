@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>devChallenges.io | Minimal Blog Card</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        font-size: 0.875rem;
+      }
+      .container{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #E5EAF0;
+      }
+      .card_container{
+        width: 368px;
+        padding: 16px 16px 0 16px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+      }
+      .top {
+        border-bottom: 1px solid #E5EAF0;
+      }
+      .img{
+        height: 152px;
+        background-image: url(/resources/Cactus.jpg);
+        /* background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; */
+        border-radius: 8px;
+
+      }
+      .sub_head{
+        margin-top: 16px;
+        background-color: #F2EAFD;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #7C19EE;
+        border-radius: 10px;
+      }
+      .heading {
+        margin-top: 16px;
+        font-size: 1.125rem;
+      }
+      .text{
+        margin: 6px 0 20px 0;
+        font-size: 0.825rem;
+        font-weight: 550;
+        color: #394150;
+      }
+      .bottom_text{
+        margin: 20px 0 20px 0;
+        font-size: 0.825rem;
+        font-weight: 600;
+      }
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="card_container">
+        <div class="top">
+          <div class="img"></div>
+          <p class="sub_head">Design</p>
+          <h1 class="heading">Embracing Minimalism</h1>
+          <p class="text">From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p>
+        </div>
+        <p class="bottom_text">Annie Spratt</p>
+      </div>
+    </div>
+
+    <div class="author-info">
+      Coded by <a href="#">Mamun</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </body>
+</html>
